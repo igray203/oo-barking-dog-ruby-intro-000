@@ -7,11 +7,11 @@ class Dog
   end
 
   def name
-    name = @bark
+    name = @name
   end
 
   def bark
-    bark = @name
+    bark = @bark
   end
 
 end
