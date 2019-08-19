@@ -6,12 +6,20 @@ class Dog
     @bark = bark
   end
 
+  def name=(name)
+    @name = name
+  end
+
   def name
     name = @name
   end
 
   def bark
     bark = @bark
+  end
+
+  def bark=(bark)
+    @bark = bark
   end
 
 end
